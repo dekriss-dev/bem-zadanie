@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: "Poppins", sans-serif;
+  background-color: #333333;
+}
+
+.card {
+  width: 400px;
+  background-color: #dddddd;
+  border-radius: 8px;
+}
+.card__img {
+  width: 100%;
+}
+.card__body {
+  padding: 10px 20px;
+}
+.card__text {
+  margin: 20px 0;
+}
+.card__btns {
+  display: flex;
+  justify-content: space-between;
+}
+.card__btn {
+  border: 1px solid black;
+  border-radius: 8px;
+  padding: 10px 30px;
+  cursor: pointer;
+}
+.card__btn:hover {
+  transition: 0.5s ease all;
+  background-color: black;
+  color: white;
+}
+.card__btn--highlight {
+  background-color: rgb(33, 218, 132);
+}
+.card__btn--highlight:hover {
+  background-color: rgb(6, 157, 86);
+  color: black;
+}/*# sourceMappingURL=style.css.map */
