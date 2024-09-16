@@ -18,6 +18,7 @@ body {
   width: 400px;
   background-color: #dddddd;
   border-radius: 8px;
+  overflow: hidden;
 }
 .card__img {
   width: 100%;
